@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<body>
+    <h1 id="myh1">ATM</h1>
+    <label id="mylabel1">Enter your PIN</label>
+    <input id="input1"><br>
+    <div id="mydiv">
+    <button id="submit1">Submit</button>
+    </div>
+    <h2 id="myh2"></h2>
+    <div id="secretbuttons" style="display:none">
+    <button id="button1" class="buttons">Withdraw</button>
+    <button id="button2" class="buttons">Check Balance</button>
+    <button id="button3" class="buttons">Deposit</button>
+    <div id="withdrawal" style="display:none"><br>
+        <label>Enter the Money for withdrawal:</label>
+        <input id="withdrawalinput">
+        <button id="withdrawsubmit">Submit</button>
+        <h2 id="myh22" style="display:none"></h2>
+    </div>
+    <div id="deposition" style="display:none"><br>
+        <label>Enter the Money for deposition:</label>
+        <input id="depositioninput">
+        <button id="depositsubmit">Submit</button>
+        <h2 id="myh23" style="display:none"></h2>
+    </div>
+    <h2 id="myh24" style="display:none"></h2>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</body>
+</html>
