@@ -1,0 +1,39 @@
+#myh1{
+    font-size:8em;
+    text-align:center;
+}
+#mylabel1{
+    font-size:2em;
+}
+#input1{
+    font-size:2em;
+}
+#mydiv{
+    font-size:2em;  
+}
+#myh2{
+    font-size:3em;
+    text-align:center;
+}
+#secretbuttons{
+    text-align:center
+}
+.buttons{
+    padding:10px,20px;
+    font-size:3em;
+    color:rgb(0, 0, 0);
+    background-color: rgb(200, 199, 190);
+    border-radius:5px;
+    cursor: pointer;
+    transition: background-colour 0.25s;
+    text-align:center;
+}
+.buttons:hover{
+    background-color:rgb(255, 255, 253);
+}
+#withdrawal{
+    font-size:2em;
+}
+#deposition{
+    font-size:2em;
+}
