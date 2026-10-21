@@ -15,6 +15,7 @@ let pin;
 let balance=10000;
 let wtdraw;
 let counter=0;
+let retry=0;
 
 mypin.onclick=function(){
     pin=Number(myinput.value);
@@ -49,5 +50,9 @@ mypin.onclick=function(){
     }
 else{
     document.getElementById("myh2").textContent=`Entered Wrong PIN!`;
+    retry++;
+    if(retry==3){
+        window.close();
+    }
 } 
 }
