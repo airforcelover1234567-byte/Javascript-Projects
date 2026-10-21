@@ -7,14 +7,14 @@ const button3=document.getElementById("button3");
 const withdrawalinput=document.getElementById("withdrawalinput");
 const withdrawsubmit=document.getElementById("withdrawsubmit");
 const myh22=document.getElementById("myh22");
-const myh23=document.getElementById("myh23");
 const depositioninput=document.getElementById("depositioninput");
 const depositsubmit=document.getElementById("depositsubmit");
 
-let depositinput
+let depositinput;
 let pin;
 let balance=10000;
 let wtdraw;
+let counter=0;
 
 mypin.onclick=function(){
     pin=Number(myinput.value);
@@ -35,16 +35,15 @@ mypin.onclick=function(){
         }
     }
     button2.onclick=function(){
-        document.getElementById("myh24").textContent=balance;
+        document.getElementById("myh22").textContent=balance;
     }
     button3.onclick=function(){
           document.getElementById("deposition").style.display="block";
         depositsubmit.onclick=function(){
             depositinput=Number(depositioninput.value);
-            depositinput=Number(depositinput);
             balance=balance+depositinput;
-            myh23.textContent=balance;
-            myh23.style.display=`block`;
+            myh22.textContent=balance;
+            myh22.style.display=`block`;
     }
 }
     }
