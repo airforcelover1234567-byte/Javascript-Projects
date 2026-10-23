@@ -11,7 +11,7 @@ const depositioninput=document.getElementById("depositioninput");
 const depositsubmit=document.getElementById("depositsubmit");
 
 let depositinput;
-let pin;
+let pin; 
 let balance=10000;
 let wtdraw;
 let counter=0;
