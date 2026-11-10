@@ -4,7 +4,12 @@
     color:#FFE135;
     border:5px solid #FFE135;
     border-radius:20px;
-    background-color:rgb(73, 72, 72);
+    background-color:rgb(73, 72, 72); 
+}
+.image{
+    position:fixed;
+    left:40%;
+    margin-top:2.5em;
 }
 #input{
     text-align:center;
