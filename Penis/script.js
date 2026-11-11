@@ -11,7 +11,7 @@ submit.onclick=function(){
         document.getElementById("img1").style.display="block";
         h1.textContent='You have a small dih. Try to make it bigger';
     }
-    else if(size>7<10){
+    else if(size>7 && size<15){
         document.getElementById("img2").style.display="block";
         h1.textContent='Nice. You have a good one. It is enough for enjoyment.'
     }
