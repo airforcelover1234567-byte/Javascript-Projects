@@ -9,8 +9,16 @@
 .image{
     position:fixed;
     left:40%;
-    margin-top:2.5em;
-    display:none;
+    margin-top:4em;
+}
+#img1{
+        display:none;
+}
+#img2{
+        display:none;
+}
+#img3{
+        display:none;
 }
 #input{
     text-align:center;
